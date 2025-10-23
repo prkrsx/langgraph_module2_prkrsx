@@ -26,6 +26,6 @@ fig 2.3.1: Multiple Schemas
 # Module 2: Lesson 4 - Trim and Filter Messages
 1. Learnt how to manage conversations by exploring how message reducers, filters, and trimmers are used to precisely control the amount of conversation history (chat_log) sent to the model each turn.
 2. Learnt that maintaining a consistent message channel allows the chat history to be reshaped or processed without breaking the core LangGraph structure.
-3. List names were replaced with: chat_log and chat_track
+3. List names were replaced with: chat_log and chat_track, and prompt was updated
 <img width="2938" height="1668" alt="image" src="https://github.com/user-attachments/assets/96e09836-da9f-4c04-a439-725fabd283e9" />
 fig 2.4.1: Trace of the chat
