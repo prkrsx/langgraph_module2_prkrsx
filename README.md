@@ -12,3 +12,7 @@ fig 2.1.2: Using Dataclass
 <img width="1788" height="356" alt="image" src="https://github.com/user-attachments/assets/095449fd-099d-4b0a-93da-9134d3c05d3e" />
 fig 2.1.3: Using Pydantic
 
+# Module 2: Lesson 2 - State Reducers
+1. Learnt that reducers are used to let multiple parallel nodes safely merge their updates. This ensures that the final state contract remains predictable and consistent even with concurrent operations.
+2. By using annotated keys, you can easily swap between different state merging behaviors, for example- overwrite, append, or a custom merge function, without needing to rewrite or modify the node logic itself.
+3. Changed the "foo" channel with "status"
