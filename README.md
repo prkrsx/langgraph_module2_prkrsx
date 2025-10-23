@@ -34,3 +34,11 @@ fig 2.4.1: Trace of the chat
 1. Learned to use review/summary to effectively compress the conversation history. This allows LangGraph to handle persistence memory across multiple steps and threads efficiently.
 2. Explored how to use conditional edges as a mechanism to decide when to refresh the review. This ensures the model receives consistent context without incurring the cost of reprocessing all the messages in history.
 3. The code was tweaked by replacing the key used in the graph state to review and prompts were changed to incorporate understanding.
+
+# Module 2: Lesson 6 - Chatbot w/ Summarizing messages and External Memory
+1. Learned how to use external checkpointers (from SQLite) to register every thread's state. This is crucial for allowing the chatbot to resume conversations with their complete memory intact.
+2. Using state persistence indirectly keeps token usage low by preventing the model from re-processing the entire conversation history on each turn.
+3. Replaced summary with review and changed the prompts.
+<img width="896" height="554" alt="image" src="https://github.com/user-attachments/assets/7a4edac3-9590-49ad-8758-b0382cf8b8f1" />
+
+fig 2.5.1 - Updated prompt and tweaked the code
