@@ -29,3 +29,8 @@ fig 2.3.1: Multiple Schemas
 3. List names were replaced with: chat_log and chat_track, and prompt was updated
 <img width="2938" height="1668" alt="image" src="https://github.com/user-attachments/assets/96e09836-da9f-4c04-a439-725fabd283e9" />
 fig 2.4.1: Trace of the chat
+
+# Module 2: Lesson 5 - Chatbot w/ Summarizing messages and Memory
+1. Learned to use review/summary to effectively compress the conversation history. This allows LangGraph to handle persistence memory across multiple steps and threads efficiently.
+2. Explored how to use conditional edges as a mechanism to decide when to refresh the review. This ensures the model receives consistent context without incurring the cost of reprocessing all the messages in history.
+3. The code was tweaked by replacing the key used in the graph state to review and prompts were changed to incorporate understanding.
