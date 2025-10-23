@@ -21,3 +21,11 @@ fig 2.1.3: Using Pydantic
 1. Learnt that nodes can use a private state to exchange temporary variables. This is crucial because it allows internal logic to operate without affecting the graph's public schema or the final, external output.
 2. Tweaked the code to use more explicit values such as "track/temp" and "input/output/data".
 <img width="1788" height="232" alt="image" src="https://github.com/user-attachments/assets/b17c5d80-448a-4d46-9d5d-f4b406bbc94c" />
+fig 2.3.1: Multiple Schemas
+
+# Module 2: Lesson 4 - Trim and Filter Messages
+1. Learnt how to manage conversations by exploring how message reducers, filters, and trimmers are used to precisely control the amount of conversation history (chat_log) sent to the model each turn.
+2. Learnt that maintaining a consistent message channel allows the chat history to be reshaped or processed without breaking the core LangGraph structure.
+3. List names were replaced with: chat_log and chat_track
+<img width="2938" height="1668" alt="image" src="https://github.com/user-attachments/assets/96e09836-da9f-4c04-a439-725fabd283e9" />
+fig 2.4.1: Trace of the chat
