@@ -16,3 +16,8 @@ fig 2.1.3: Using Pydantic
 1. Learnt that reducers are used to let multiple parallel nodes safely merge their updates. This ensures that the final state contract remains predictable and consistent even with concurrent operations.
 2. By using annotated keys, you can easily swap between different state merging behaviors, for example- overwrite, append, or a custom merge function, without needing to rewrite or modify the node logic itself.
 3. Changed the "foo" channel with "status"
+
+# Module 2: Lesson 3 - Multiple Schemas
+1. Learnt that nodes can use a private state to exchange temporary variables. This is crucial because it allows internal logic to operate without affecting the graph's public schema or the final, external output.
+2. Tweaked the code to use more explicit values such as "track/temp" and "input/output/data".
+<img width="1788" height="232" alt="image" src="https://github.com/user-attachments/assets/b17c5d80-448a-4d46-9d5d-f4b406bbc94c" />
